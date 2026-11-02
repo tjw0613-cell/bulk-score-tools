@@ -1,0 +1,19 @@
+{
+  "reference_version": "Quah-33genes-full-human-7donors-v1",
+  "source_dataset": "GSE188737",
+  "source_material": "Existing frozen study pseudobulk inputs; 7 donors x 3 compartments x 33 selected genes",
+  "normalization": "Selected observed counts divided by the complete human UMI total within each donor compartment; no selected-gene renormalization",
+  "source_files": {
+    "Quah_33gene_profiles.npz": {
+      "sha256": "f83c3a11b5fb6623cc427b3162d26b70ae006f1d1a6c2ff07bc44e1c6e5b8389"
+    },
+    "frozen_masks_weights.npz": {
+      "sha256": "ab037d6d891b60cc22f654c76f8f1ee8301d5be2afa6d2998ca1aeaa8d6904df"
+    },
+    "compatible_pairs.json": {
+      "sha256": "226a1813fe46a06f23aa424931d8f7bfe81d125ea9949486efc31a3bd138ca06"
+    }
+  },
+  "license_note": "Authors' original implementation is MIT licensed. These third-party-derived reference and signature resources retain their source conditions and are not relicensed by the software LICENSE. No archival DOI has been assigned.",
+  "annotation_note": "Labels and donor supports are preserved from the frozen study reference; they are not newly inferred by this package."
+}

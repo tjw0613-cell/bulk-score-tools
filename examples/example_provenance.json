@@ -1,0 +1,74 @@
+{
+  "type": "deterministic synthetic reference mixture example",
+  "not_clinical_validation": true,
+  "samples": 12,
+  "denominator": "complete human reference UMI total",
+  "construction": "sum_c q_c * reference probability of the specified compartment donor, multiplied by 1e6",
+  "donor_indices_zero_based": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      3,
+      5
+    ],
+    [
+      2,
+      5,
+      1
+    ],
+    [
+      3,
+      0,
+      4
+    ],
+    [
+      4,
+      2,
+      0
+    ],
+    [
+      5,
+      4,
+      3
+    ],
+    [
+      6,
+      6,
+      6
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      3,
+      5
+    ],
+    [
+      2,
+      5,
+      1
+    ],
+    [
+      3,
+      0,
+      4
+    ],
+    [
+      4,
+      2,
+      0
+    ]
+  ],
+  "source_reference_version": "Quah-33genes-full-human-7donors-v1",
+  "csv_sha256": {
+    "bulk_cpm.csv": "78ab72943e0e438795e3400d91d40aa3d8505d6f2611b8003d54984d3401ed28",
+    "q_rna.csv": "68df546a507522ff6222d4966d38eed2a885c7500f4df1b8a71a5d8619dc20d4"
+  }
+}

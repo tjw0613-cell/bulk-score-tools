@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "validated_at_utc": "2026-11-02T00:20:20.535802+00:00",
+  "software_version": "0.1.0",
+  "tested_environment": {
+    "python": "3.11.17",
+    "numpy": "1.26.4",
+    "pandas": "3.0.6"
+  },
+  "unit_tests": 20,
+  "numerical_fixture_counts": {
+    "archive_comparable_calls": 108,
+    "strict_zero_failures": 20,
+    "explicit_complete_case_calls": 20,
+    "six_pair_leakage_calls": 6,
+    "gene_lambda_rows_checked": 243
+  },
+  "max_absolute_gaps": {
+    "raw": 6.106226635438361e-16,
+    "known_loading": 4.440892098500626e-16,
+    "joint_ols": 7.771561172376096e-16,
+    "archived_raw": 1.3322676295501878e-15,
+    "archived_known_loading": 1.3322676295501878e-15,
+    "archived_joint_ols": 6.13398221105399e-15,
+    "gene_lambda": 4.440892098500626e-16,
+    "weighted_index": 2.220446049250313e-16,
+    "conditional_support": 8.881784197001252e-16,
+    "unit_or_order_invariance": 1.6653345369377348e-16
+  },
+  "independent_quickstart_runs": 2,
+  "byte_identical_output_files": 7,
+  "implementation_hashes": {
+    "bulk_score_tools/core.py": "a586dd5b9f816bf54689f51e27be682a03e10883c409db534021c72b06e910f8",
+    "bulk_score_tools/__init__.py": "92f19e24a31d53ccb62d3435091b2068013887acf9091bacbdd0e7d63205debe"
+  },
+  "fixture_receipt_sha256": "49aaad8ea3cd4280d13c677483b57d314914fc962b4404559e97bf5c3558b2ea",
+  "API_SCHEMA_sha256": "5db999802618656d37bf2b2753b93dfaa3e779699f265af26715d7bf655e1950",
+  "commands": [
+    "python -m unittest discover -s tests -v",
+    "python quickstart.py",
+    "python validation/validate_archived_fixtures.py"
+  ],
+  "scope": "Executable software checks and reproduction of frozen numerical expectations; not additional biological or clinical validation.",
+  "notes": "Expected invalid-input rejections are included in strict_zero_failures. Numerical reference availability is distinct from pure-target identifiability."
+}

@@ -1,0 +1,26 @@
+{
+  "case": "Quah_product_variable_variable",
+  "source": "Quah",
+  "scenario": "product_variable_variable",
+  "original_cohort_index": 0,
+  "n_rows": 118,
+  "n_selected_genes": 33,
+  "bulk_scale": "probability",
+  "normalization": "Original full-human compartment probabilities mixed by frozen true RNA fractions; no normalization over selected genes. These are natural-profile synthetic mixture values, not a new count-sampling experiment.",
+  "selected_probability_row_sums_min_max": [
+    0.0018632188591369237,
+    0.02872977856441424
+  ],
+  "q_provenance": "known",
+  "native_compartments": [
+    "Fibroblast",
+    "Macrophage",
+    "Epithelial"
+  ],
+  "profile_source": "Quah_33gene_profiles.npz",
+  "cohort_source": "Quah_product_variable_variable_1000cohorts.npz",
+  "profile_source_sha256": "f83c3a11b5fb6623cc427b3162d26b70ae006f1d1a6c2ff07bc44e1c6e5b8389",
+  "cohort_source_sha256": "7ff76b03ab0752c636453cef293223255f04045ac3be2839c0cb50b2e91149ef",
+  "source_dataset": "GSE188737",
+  "source_locator_type": "Frozen source filenames, identified by SHA-256 in input_manifest.csv; not runtime paths."
+}

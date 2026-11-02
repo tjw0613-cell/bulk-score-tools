@@ -1,0 +1,26 @@
+{
+  "case": "Simkin_paired_variable_variable",
+  "source": "Simkin",
+  "scenario": "paired_variable_variable",
+  "original_cohort_index": 0,
+  "n_rows": 118,
+  "n_selected_genes": 33,
+  "bulk_scale": "probability",
+  "normalization": "Original full-human compartment probabilities mixed by frozen true RNA fractions; no normalization over selected genes. These are natural-profile synthetic mixture values, not a new count-sampling experiment.",
+  "selected_probability_row_sums_min_max": [
+    0.000713009433794111,
+    0.040434885218612694
+  ],
+  "q_provenance": "known",
+  "native_compartments": [
+    "Fibroblast",
+    "Macrophage",
+    "Malignant"
+  ],
+  "profile_source": "Simkin_33gene_profiles.npz",
+  "cohort_source": "Simkin_paired_variable_variable_1000cohorts.npz",
+  "profile_source_sha256": "20089ad06ef90b32096f3fcaf95b936e4697c04612a7ab3d1ace8fa679bbf5cf",
+  "cohort_source_sha256": "6273e0a6fc605bbe66f59711edbd1cbc3fc00b46335b1e3fe324af26252893b5",
+  "source_dataset": "GSE268014",
+  "source_locator_type": "Frozen source filenames, identified by SHA-256 in input_manifest.csv; not runtime paths."
+}

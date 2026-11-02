@@ -1,0 +1,19 @@
+{
+  "status": "READY_FOR_API_PARITY_TEST",
+  "built_at_utc": "2026-11-01T07:55:06.185964+00:00",
+  "cases": 8,
+  "cohorts_per_case": 1,
+  "rows_per_case": 118,
+  "expected_correlation_rows": 192,
+  "max_independent_vs_saved_correlation_gap": 6.0645932720149176e-15,
+  "scope": "Small representative saved-input parity fixtures, not a performance experiment.",
+  "oracle_semantics": {
+    "old_logq_logq_ols": "Fitted joint OLS against intercept and true logqF/logqM",
+    "old_logq_logq_offset": "Known-loading subtraction using fixed sum(weights)",
+    "small_alpha_known_q_OLS": "Fitted joint OLS; MUST NOT be used as oracle for default known_loading method",
+    "small_alpha_known_loading": "Independent subtraction oracle; no archived .01 offset assumed"
+  },
+  "signature_offsets": "Fixtures retain fixed Bill centering offsets. Saved correlation arrays omit these constants, which does not change Pearson or intercept-containing OLS correlations.",
+  "availability": "Full bulk score availability is distinct from finite-source pure-target availability; both recorded. No row dropping in archived parity comparisons.",
+  "contract_sha256": "22ced3508bf0a19613047723c99c9586bedeecb6c92e5984564b826101c87170"
+}
