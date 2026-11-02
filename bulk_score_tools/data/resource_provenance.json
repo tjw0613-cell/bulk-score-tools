@@ -14,6 +14,8 @@
       "sha256": "226a1813fe46a06f23aa424931d8f7bfe81d125ea9949486efc31a3bd138ca06"
     }
   },
-  "license_note": "Authors' original implementation is MIT licensed. These third-party-derived reference and signature resources retain their source conditions and are not relicensed by the software LICENSE. No archival DOI has been assigned.",
-  "annotation_note": "Labels and donor supports are preserved from the frozen study reference; they are not newly inferred by this package."
+  "license_note": "Authors' original implementation is MIT licensed. These third-party-derived reference and signature resources retain their source conditions and are not relicensed by the software LICENSE.",
+  "annotation_note": "Labels and donor supports are preserved from the frozen study reference; they are not newly inferred by this package.",
+  "software_repository": "https://github.com/tjw0613-cell/bulk-score-tools",
+  "study_archive_doi": "10.5281/zenodo.23886566"
 }

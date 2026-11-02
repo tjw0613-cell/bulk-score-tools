@@ -16,3 +16,7 @@ include = ["bulk_score_tools*"]
 
 [tool.setuptools.package-data]
 bulk_score_tools = ["data/*.json", "data/*.npz"]
+
+[project.urls]
+Repository = "https://github.com/tjw0613-cell/bulk-score-tools"
+"Study archive" = "https://doi.org/10.5281/zenodo.23886566"
